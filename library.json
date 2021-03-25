@@ -1,0 +1,26 @@
+{
+    "name": "ROSAL",
+    "version": "0.0.1",
+    "description": "ROSAL is a Real Time Operating System Abstraction Layer",
+    "keywords": "ROSAL, RTOS, OSAL, RealTime, Real Time Operating System Abstraction Layer, C++ Abstraction Layer",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/PabloAbraham/ROSAL.git"
+    },
+    "authors":
+    [
+      {
+        "name": "Pablo Abraham",
+        "email": "pabloabraham@gmail.com",
+        "url": "https://github.com/PabloAbraham/ROSAL",
+        "maintainer": true
+      }
+    ],
+    "license": "Apache 2.0",
+    "homepage": "https://github.com/PabloAbraham/ROSAL",
+    "dependencies": {
+    },
+    "frameworks": "Arduino, Zephyr RTOS, FreeRTOS",
+    "platforms": "Espressif 32, ST STM32, NXP i.MX RT, Atmel AVR, Atmel megaAVR, Atmel SAM, Espressif 8266, Nordic nRF52, Teensy, SiFive"
+  }
